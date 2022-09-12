@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - print size of files
  *
  * Description: - size of datatypes
