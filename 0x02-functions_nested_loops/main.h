@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H_INCLUDED
-#define HOLBERTEN_H_INCLUDED
+#ifndef ALL_FILE_INCLUDED
+#define ALL_FILE_INCLUDED
 
 int _putchar(char);
 void print_alphabet(void);
