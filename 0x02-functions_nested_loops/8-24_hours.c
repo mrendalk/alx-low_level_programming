@@ -17,13 +17,13 @@ void jack_bauer(void)
 			{
 				_putchar('0');
 			}
-			_putchar('%d',i);
+			_putchar(i);
 			_putchar(':');
 			if(j <= 9 && j >= 0)
 			{
 				_putchar('0');
 			}
-			_putchar('%d',j);
+			_putchar(j);
 		}
 	}
 }
