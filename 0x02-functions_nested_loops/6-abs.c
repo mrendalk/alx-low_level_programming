@@ -2,7 +2,7 @@
 /**
  * _abs - absoulute value of an integer
  * @c: argument
- * Return: result
+ * Return: result of the value
  */
 int _abs(int c)
 {
