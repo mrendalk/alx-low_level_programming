@@ -2,13 +2,11 @@
 
 /**
  * print_last_digit - print the last digit of a number
- *
+ * @c: argumen
  * Return: the result
  */
 
 int print_last_digit(int c)
 {
-	int result, r;
-	result = c % 10;
-	return ("%d", result);
+	return (c % 10);
 }
