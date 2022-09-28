@@ -1,19 +1,17 @@
-/*
-*File:0-puts_recursion.c
-*Auth:sam
-*/
-
-#include"main.h"
 /**
-*_puts_recursion-Printsastring,followedbyanewline.
-*@s:Thestringtobeprinted.
+* _puts_recursion - prints's a string followed
+* @s: string to be a printed
+* Return: void
 */
-void_puts_recursion(char*s)
+void _puts_recursion(char *s)
 {
-if(*s)
-{
-_putchar(*s);
-_puts_recursion(s+1);
-else
-_putchar('\n');
+	if (*s == '\0')
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		_putchar(s[0]);
+		_puts_recursion(s + 1);
+	}
 }
