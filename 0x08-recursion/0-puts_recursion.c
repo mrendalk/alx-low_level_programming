@@ -1,15 +1,19 @@
-#include "main.h"
-/**
-* _puts_recursion - Prints a string, followed by a new line.
-* @s: The string to be printed.
+/*
+*File:0-puts_recursion.c
+*Auth:sam
 */
-void _puts_recursion(char *s)
+
+#include"main.h"
+/**
+*_puts_recursion-Printsastring,followedbyanewline.
+*@s:Thestringtobeprinted.
+*/
+void_puts_recursion(char*s)
 {
-        if (*s)
-        {   
-            _putchar(*s);
-            _puts_recursion(s + 1);
-        }
-        else
-            _putchar('\n');
+if(*s)
+{
+_putchar(*s);
+_puts_recursion(s+1);
+else
+_putchar('\n');
 }
