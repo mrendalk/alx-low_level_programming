@@ -1,23 +1,23 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 /**
- * main - print all arguments it receives
- * @argc: arguments number
- * @argv: array of the string
- *
- * Return: Always 0
+ * main - program that prints its name, followed by a new line
+ * @argc: argument that counts argument input
+ * @argv: argument that stores the strings in an array of char* (strings)
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
-	int product;
+	int num_1, num_2, mul;
 
-	if(argc == 3)
-	{
-		printf("%d\n",argv[1] * argv[2]);
-	}
+	if (argc != 3)
+		printf("Error\n");
 	else
 	{
-		print("Error");
+		num_1 = atoi(argv[1]);
+		num_2 = atoi(argv[2]);
+		mul = num_1 * num_2;
+		printf("%d\n", mul);
 	}
 	return (0);
 }
